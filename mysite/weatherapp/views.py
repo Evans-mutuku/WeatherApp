@@ -5,7 +5,6 @@ from django.shortcuts import render
 
 
 def index(request):
-
     if request.method == 'POST':
         city = request.POST['city']
 
